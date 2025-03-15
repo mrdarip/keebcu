@@ -32,7 +32,7 @@ innerCaseSpace = 5;
 //length, in units, of board
 width=18;
 //Height, in units, of board
-height=7;
+height=6;
 
 /* thickness of the lid.
    the function 'lid()' will add an
@@ -52,7 +52,7 @@ spacebarCut = 4.5;
  * Select separation of F-Row (or Row 0; key[0][1]=0)
  * This will move the upper row by a half unit (lkey*0.5)
  */
-fRowSeparator=false;
+fRowSeparator=true;
 
 /* skirt selctor and skirt settings
  * select 'skirtSelect' as true to activate a additional skirt
@@ -132,94 +132,94 @@ layout = [
 [[17,0],1,"Gray"], //x
 
 //start ROW 2
-[[ 0,2],1,"Green"], //º
-[[ 1,2],1,"Red"], //1
-[[ 2,2],1,"Red"], //2
-[[ 3,2],1,"Red"], //3
-[[ 4,2],1,"Red"], //4
-[[ 5,2],1,"Red"], //5
-[[ 6,2],1,"Red"], //6
-[[ 7,2],1,"Red"], //7
-[[ 8,2],1,"Red"], //8
-[[ 9,2],1,"Red"], //9
-[[10,2],1,"Red"], //0
-[[11,2],1,"Purple"], //?
-[[12,2],1,"Purple"], //¡
-[[13,2],1,"Pink"], //←
-[[14,2],1,"Pink"], //prt
-[[15,2],1,"Gray"], //re pag
-[[17,2],1,"MintCream"],//y
+[[ 0,1],1,"Green"], //º
+[[ 1,1],1,"Red"], //1
+[[ 2,1],1,"Red"], //2
+[[ 3,1],1,"Red"], //3
+[[ 4,1],1,"Red"], //4
+[[ 5,1],1,"Red"], //5
+[[ 6,1],1,"Red"], //6
+[[ 7,1],1,"Red"], //7
+[[ 8,1],1,"Red"], //8
+[[ 9,1],1,"Red"], //9
+[[10,1],1,"Red"], //0
+[[11,1],1,"Purple"], //?
+[[12,1],1,"Purple"], //¡
+[[13,1],1,"Pink"], //←
+[[14,1],1,"Pink"], //prt
+[[15,1],1,"Gray"], //re pag
+[[17,1],1,"MintCream"],//y
 
 //start ROW 3
-[[ 0,3],1,"Green"], //tab
-[[ 1,3],1,"Red"], //q
-[[ 2,3],1,"Red"], //w
-[[ 3,3],1,"Red"], //e
-[[ 4,3],1,"Red"], //r
-[[ 5,3],1,"Red"], //t
-[[ 6,3],1,"Red"], //y
-[[ 7,3],1,"Red"], //u
-[[ 8,3],1,"Red"], //i
-[[ 9,3],1,"Red"], //o
-[[10,3],1,"Red"], //p
-[[11,3],1,"Purple"], //[`
-[[12,3],1,"Purple"], //]+
-[[13,3.5],1,"Pink"], //↩
-[[14,3],1,"Pink"], //del
-[[15,3],1,"Gray"], //av pag
-[[17,3],1,"MintCream"], //z
+[[ 0,2],1,"Green"], //tab
+[[ 1,2],1,"Red"], //q
+[[ 2,2],1,"Red"], //w
+[[ 3,2],1,"Red"], //e
+[[ 4,2],1,"Red"], //r
+[[ 5,2],1,"Red"], //t
+[[ 6,2],1,"Red"], //y
+[[ 7,2],1,"Red"], //u
+[[ 8,2],1,"Red"], //i
+[[ 9,2],1,"Red"], //o
+[[10,2],1,"Red"], //p
+[[11,2],1,"Purple"], //[`
+[[12,2],1,"Purple"], //]+
+[[13,2.5],1,"Pink"], //↩
+[[14,2],1,"Pink"], //del
+[[15,2],1,"Gray"], //av pag
+[[17,2],1,"MintCream"], //z
 
 //start ROW 4
-[[ 0,4],1,"Green"], //bloc
-[[ 1,4],1,"Red"], //a
-[[ 2,4],1,"Red"], //s
-[[ 3,4],1,"Red"], //d
-[[ 4,4],1,"Red"], //f
-[[ 5,4],1,"Red"], //g
-[[ 6,4],1,"Red"], //h
-[[ 7,4],1,"Red"], //j
-[[ 8,4],1,"Red"], //k
-[[ 9,4],1,"Red"], //l
-[[10,4],1,"Red"], //ñ
-[[11,4],1,"Purple"], //{´
-[[12,4],1,"Purple"], //}ç
-[[14,4],1,"Pink"], //hom
-[[15,4],1,"Gray"], //end
-[[17,4],1,"MintCream"], //1
+[[ 0,3],1,"Green"], //bloc
+[[ 1,3],1,"Red"], //a
+[[ 2,3],1,"Red"], //s
+[[ 3,3],1,"Red"], //d
+[[ 4,3],1,"Red"], //f
+[[ 5,3],1,"Red"], //g
+[[ 6,3],1,"Red"], //h
+[[ 7,3],1,"Red"], //j
+[[ 8,3],1,"Red"], //k
+[[ 9,3],1,"Red"], //l
+[[10,3],1,"Red"], //ñ
+[[11,3],1,"Purple"], //{´
+[[12,3],1,"Purple"], //}ç
+[[14,3],1,"Pink"], //hom
+[[15,3],1,"Gray"], //end
+[[17,3],1,"MintCream"], //1
 
 //start ROW 5
-[[ 0,5],1,"Green"], //may
-[[ 1,5],1,"Red"], //<>
-[[ 2,5],1,"Red"], //z
-[[ 3,5],1,"Red"], //x
-[[ 4,5],1,"Red"], //c
-[[ 5,5],1,"Red"], //v
-[[ 6,5],1,"Red"], //b
-[[ 7,5],1,"Red"], //n
-[[ 8,5],1,"Red"], //m
-[[ 9,5],1,"Red"], //;
-[[10,5],1,"Red"], //:
-[[11,5],1,"Purple"], //-
-[[12,5],1,"Purple"], //meta1
-[[13,5],1,"Pink"], //meta2
-[[14,5],1,"Pink"], //↑
-[[15,5],1,"Gray"], //meta3
-[[17,5],1,"MintCream"], //2
+[[ 0,4],1,"Green"], //may
+[[ 1,4],1,"Red"], //<>
+[[ 2,4],1,"Red"], //z
+[[ 3,4],1,"Red"], //x
+[[ 4,4],1,"Red"], //c
+[[ 5,4],1,"Red"], //v
+[[ 6,4],1,"Red"], //b
+[[ 7,4],1,"Red"], //n
+[[ 8,4],1,"Red"], //m
+[[ 9,4],1,"Red"], //;
+[[10,4],1,"Red"], //:
+[[11,4],1,"Purple"], //-
+[[12,4],1,"Purple"], //meta1
+[[13,4],1,"Pink"], //meta2
+[[14,4],1,"Pink"], //↑
+[[15,4],1,"Gray"], //meta3
+[[17,4],1,"MintCream"], //2
 
 //start ROW 6
-[[ 0,6],1,"Green"], //ctrl
-[[ 1,6],1,"Red"], //su
-[[ 2,6],1,"Red"], //fn
-[[ 3,6],1,"Red"], //al
-[[ 4,6],3,"Red"], //space 1
-[[ 7,6],3,"Red"], //space 2
-[[10,6],1,"Red"], //alt gr
-[[11,6],1,"Purple"], //menu
-[[12,6],1,"Purple"], //ctrl
-[[13,6],1,"Pink"], //←
-[[14,6],1,"Pink"], //↓
-[[15,6],1,"Gray"], //→
-[[17,6],1,"MintCream"], //3
+[[ 0,5],1,"Green"], //ctrl
+[[ 1,5],1,"Red"], //su
+[[ 2,5],1,"Red"], //fn
+[[ 3,5],1,"Red"], //al
+[[ 4,5],3,"Red"], //space 1
+[[ 7,5],3,"Red"], //space 2
+[[10,5],1,"Red"], //alt gr
+[[11,5],1,"Purple"], //menu
+[[12,5],1,"Purple"], //ctrl
+[[13,5],1,"Pink"], //←
+[[14,5],1,"Pink"], //↓
+[[15,5],1,"Gray"], //→
+[[17,5],1,"MintCream"], //3
 ];
 
 /* enable placment of stabilizers on switchholes with x.5 unit in y direction
@@ -229,7 +229,7 @@ enableStabsOnHalfs = true;
 
 /* move pcb and usb cutout in x direction
    for better placement */
-pcbShift=0;
+pcbShift=20;
 
 /* cutout for micro usb plug (not the housing of the usb plug!)
  * change this if using mini usb
@@ -238,11 +238,13 @@ usbCutX=8;
 usbCutY=wallThickness;
 
 /* Arduino Pro Micro USB Port height */
-usbCutZ=3.4;
+//usbCutZ=3.4;
 
 /* Teensy2 USB Port height */
 /* usbCutZ=4.5; */
 
+/* RPI pico USB Port height */
+usbCutZ=3.54;
 
 /* space in lid for placing the controller pcb.
  * this example is for arduino pro micro clones.
@@ -252,15 +254,20 @@ usbCutZ=3.4;
  * pcbLength should be as exactly as possible. this keeps the pcb
  * perfectly even if pcbWidth is to much
  */
- /* teensy2 cutout */
+ /* teensy2 cutout *//*
  pcbHeight = 1.8;
  pcbWidth = 18.5;
- pcbLength = 31.4;
+ pcbLength = 31.4;*/
 
  /* arduino pro micro cutout */
  //pcbHeight = 2;
  //pcbWidth = 18;
  //pcbLength = 34;;
+
+ /* RPI pico cutout */
+ pcbHeight = 0.9;
+ pcbWidth = 20.9;
+ pcbLength = 51.0;
 
 /* set 'addRisers' to true or false
  * to calculate a lid with holes for risers
@@ -423,7 +430,7 @@ setKeycapFragments = 50;
 /* vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv */
 
 /* ### complete keyboard model ### */
-/* mainCase(layout); */
+ mainCase(layout);
 /* lid(); */
 
 /* keycap frame functions. activate if skirt is enabled
@@ -440,7 +447,7 @@ capFrameL(layout); */
 
 /* ### devided keyboard and lid model ### */
 //mainCaseLeft(layout);
-mainCaseRight(layout); 
+//mainCaseRight(layout); 
 
 /* lidL(); */
 /* lidR(); */
