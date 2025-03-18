@@ -30,7 +30,7 @@ caseHeight=13;
 innerCaseSpace = 5;
 
 //length, in units, of board
-width=18;
+width=18.5;
 //Height, in units, of board
 height=6;
 
@@ -129,7 +129,7 @@ layout = [
 [[12,0],1,"Orange"], //F3
 [[14,0],1,"Green"], //rot
 [[15,0],1,"Green"], //rot
-[[17,0],1,"Gray"], //x
+[[17.5,0],1,"Gray"], //x
 
 //start ROW 2
 [[ 0,1],1,"Green"], //º
@@ -148,7 +148,7 @@ layout = [
 [[13,1],1,"Pink"], //←
 [[14,1],1,"Pink"], //prt
 [[15,1],1,"Gray"], //re pag
-[[17,1],1,"MintCream"],//y
+[[17.5,1],1,"MintCream"],//y
 
 //start ROW 3
 [[ 0,2],1,"Green"], //tab
@@ -167,7 +167,7 @@ layout = [
 [[13,2.5],1,"Pink"], //↩
 [[14,2],1,"Pink"], //del
 [[15,2],1,"Gray"], //av pag
-[[17,2],1,"MintCream"], //z
+[[17.5,2],1,"MintCream"], //z
 
 //start ROW 4
 [[ 0,3],1,"Green"], //bloc
@@ -185,7 +185,7 @@ layout = [
 [[12,3],1,"Purple"], //}ç
 [[14,3],1,"Pink"], //hom
 [[15,3],1,"Gray"], //end
-[[17,3],1,"MintCream"], //1
+[[17.5,3],1,"MintCream"], //1
 
 //start ROW 5
 [[ 0,4],1,"Green"], //may
@@ -204,14 +204,14 @@ layout = [
 [[13,4],1,"Pink"], //meta2
 [[14,4],1,"Pink"], //↑
 [[15,4],1,"Gray"], //meta3
-[[17,4],1,"MintCream"], //2
+[[17.5,4],1,"MintCream"], //2
 
 //start ROW 6
 [[ 0,5],1,"Green"], //ctrl
 [[ 1,5],1,"Red"], //su
 [[ 2,5],1,"Red"], //fn
-[[ 3,5],1,"Red"], //al
-[[ 4,5],3,"Red"], //space 1
+[[ 3,5],1.25,"Red"], //al
+[[ 4.25,5],2.75,"Red"], //space 1
 [[ 7,5],3,"Red"], //space 2
 [[10,5],1,"Red"], //alt gr
 [[11,5],1,"Purple"], //menu
@@ -219,7 +219,7 @@ layout = [
 [[13,5],1,"Pink"], //←
 [[14,5],1,"Pink"], //↓
 [[15,5],1,"Gray"], //→
-[[17,5],1,"MintCream"], //3
+[[17.5,5],1,"MintCream"], //3
 ];
 
 /* enable placment of stabilizers on switchholes with x.5 unit in y direction
@@ -229,7 +229,7 @@ enableStabsOnHalfs = true;
 
 /* move pcb and usb cutout in x direction
    for better placement */
-pcbShift=20;
+pcbShift=13.55;
 
 /* cutout for micro usb plug (not the housing of the usb plug!)
  * change this if using mini usb
@@ -431,6 +431,10 @@ setKeycapFragments = 50;
 
 /* ### complete keyboard model ### */
  mainCase(layout);
+
+ scale([19.05,19.05,19.05]) 
+ translate([-0.005,-127.05,0])
+ import("board.svg");
 /* lid(); */
 
 /* keycap frame functions. activate if skirt is enabled
